@@ -9,11 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 79.716492 100.00005"
+   viewBox="0 0 80.716935 101.07298"
    version="1.1"
    id="svg8"
    sodipodi:docname="hop.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="80.716934"
+   height="101.07298">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="34.129758"
-     inkscape:cy="50.254127"
+     inkscape:cx="34.631523"
+     inkscape:cy="50.958861"
      inkscape:document-units="mm"
      inkscape:current-layer="g2184"
      showgrid="false"
@@ -55,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,11 +65,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-59.603502,-114.33557)">
+     transform="translate(-59.101737,-113.96737)">
     <g
        id="g2184"
        transform="matrix(2.0896136,0,0,2.0881587,-119.94768,82.81783)"
-       style="stroke-width:0.47872406;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill:#008000;fill-opacity:1">
+       style="fill:#008000;fill-opacity:1;stroke:#ffffff;stroke-width:0.47872406;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
       <g
          id="g2228"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1">
