@@ -761,7 +761,11 @@ body {
 @media only screen and (max-width: 540px) {
   #contact .container .contact-info {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  #contact .container .form-wrapper .contact-form {
+    padding-left: 0;
   }
   #contact .container .form-wrapper .contact-form button {
     width: 100%;
