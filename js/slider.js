@@ -32,6 +32,12 @@ prevBtn.addEventListener('click', () => {
     changeSlide(false);
 });
 
+setInterval(() => {
+    changeSlide(true);
+},5000);
+ 
+
+
 
 allSlides.forEach(slide => {
     slide.addEventListener('transitionend', () => {

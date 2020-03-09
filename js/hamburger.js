@@ -1,8 +1,15 @@
-$(document).ready(() => {
-    const hamburgerWrapper = $('.hamburger-wrapper');
-    const navbarlist = $('.navbar-list');
-    hamburgerWrapper.click(()=>{
-        hamburgerWrapper.toggleClass('active');
-        navbarlist.toggleClass('active');
-    });
+
+
+const hamburgerWrapper = document.querySelector('.hamburger-wrapper');
+const navbarlist = document.querySelector('.navbar-list');
+
+hamburgerWrapper.addEventListener('click', () => {
+    hamburgerWrapper.classList.toggle('active');
+    navbarlist.classList.toggle('active');
 });
+
+
+
+
+
+

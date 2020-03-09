@@ -6,25 +6,28 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     
-    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
-    <script src="https://kit.fontawesome.com/7c60574959.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <!-- <script src="https://kit.fontawesome.com/7c60574959.js" crossorigin="anonymous"></script> -->
     <title>Document</title>
 </head>
 <body>
 
     <!-- NAVBAR -->
-<!-- asdasd -->
+
     <nav class="navbar">
         <div class="logo-wrappper">
-            <img src="img/hop.svg" alt="logo" class="hop-logo">
+            <a href="#news">
+                <img src="img/hop.svg" alt="logo" class="hop-logo">
             <div class="logo">Browar Meo</div>  
+            </a>
+            
         </div>
         
         <ul class="navbar-list">
-            <li><a href="#">Aktualności</a></li>
-            <li><a href="#">Nasze piwa</a></li>
-            <li><a href="#">O nas</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="#news">Aktualności</a></li>
+            <li><a href="#our-beers">Nasze piwa</a></li>
+            <li><a href="#about-us">O nas</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
         <div class="hamburger-wrapper">
             <div class="hamburger"></div>
@@ -33,7 +36,7 @@
 
     <!-- NEWS -->
 
-    <section class="news">
+    <section id="news">
         <div class="slider-wrapper">
             <button class="btn-slide-prev" value="prev"></button>
             <div class="slider">
@@ -47,45 +50,142 @@
 
     <!-- OUR BEERS -->
     <main>
-        <section class="our-beers">
+        <section id="our-beers">
             <h2 class="section-title">Nasze Piwa</h2> 
             <div class="container">
     
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="img/rysunek.svg" alt="piwo">
-                        <div class="beer-name">Atak Chmielu</div>
-                        <div class="beer-style">Ipa</div>
-                        <div class="card-overlay"></div>     
+
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="img/atakchmielu.jpg" alt="atak chmielu">
+                            </div>
+                            <div class="beer-name">Atak Chmielu</div>
+                            <div class="beer-style">AIPA</div>   
+                        </div>
+
+                        <div class="card-overlay">
+    
+                                <p>Nazwa: Atak Chmielu</p>
+                                <p>Styl: American India Pale Ale</p>
+                                <p>Ekstrakt: 16 wag.</p>
+                                <p>Alkohol: 6% obj.</p>
+                                <p>IBU: 60</p>
+
+                            </div>
+                             
                     </div>
                 </div>
+
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="img/rysunek.svg" alt="piwo">
-                        <div class="beer-name">Atak Chmielu</div>
-                        <div class="beer-style">Ipa</div>
-                        <div class="card-overlay"></div>     
+                    <div class="card-wrapper">
+                        <div class="card">
+
+                            <div class="img-wrapper">
+                                <img src="img/pierwszapomoc.jpg" alt="pierwsza pomoc">
+                            </div>
+                            <div class="beer-name">Pierwsza Pomoc</div>
+                            <div class="beer-style">Polski Lekki Pils</div>   
+                        </div>
+
+                        <div class="card-overlay">
+                            <p>Nazwa: Pierwsza pomoc</p>
+                            <p>Styl: Polski Lekki Pils</p>
+                            <p>Ekstrakt: 10,5 wag.</p>
+                            <p>Alkohol: 4,1% obj.</p>
+                            <p>IBU: 30</p>
+                        </div>  
                     </div>
-                </div> 
+                </div>
+
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="img/rysunek.svg" alt="piwo">
-                        <div class="beer-name">Atak Chmielu</div>
-                        <div class="beer-style">Ipa</div>
-                        <div class="card-overlay"></div>     
+                    <div class="card-wrapper">
+                        <div class="card">
+  
+                            <div class="img-wrapper">
+                                <img src="img/ajapaleale.jpg" alt="a ja pale ale">
+                            </div>
+                            <div class="beer-name">a ja pale ale</div>
+                            <div class="beer-style">American Pale Ale</div>   
+                        </div>
+
+                        <div class="card-overlay">
+                            <p>Nazwa: a ja pale ale</p>
+                            <p>Styl: APA</p>
+                            <p>Ekstrakt: 12 wag.</p>
+                            <p>Alkohol: 5% obj.</p>
+                            <p>IBU: 47</p>
+                        </div>  
                     </div>
-                </div> 
+                </div>
+
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="img/rysunek.svg" alt="piwo">
-                        <div class="beer-name">Atak Chmielu</div>
-                        <div class="beer-style">Ipa</div>
-                        <div class="card-overlay"></div>     
+                    <div class="card-wrapper">
+                        <div class="card">
+  
+                            <div class="img-wrapper">
+                                <img src="img/bawarka.jpg" alt="bawarka">
+                            </div>
+                            <div class="beer-name">Bawarka</div>
+                            <div class="beer-style">Hefeweizen</div>   
+                        </div>
+
+                        <div class="card-overlay">
+                            <p>Nazwa: Bawarka</p>
+                            <p>Styl: Hefeweizen</p>
+                            <p>Ekstrakt: 13 wag.</p>
+                            <p>Alkohol: 5,7% obj.</p>
+                            <p>IBU: 30</p>
+                        </div>  
                     </div>
-                </div>   
-    
-                
-     
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card">
+  
+                            <div class="img-wrapper">
+                                <img src="img/kwaskappa.jpg" alt="kwas kappa">
+                            </div>
+                            <div class="beer-name">Kwas kappa</div>
+                            <div class="beer-style">American Sour Lager</div>   
+                        </div>
+
+                        <div class="card-overlay">
+                            <p>Nazwa: Kwas Kappa</p>
+                            <p>Styl: American Sour Lager</p>
+                            <p>Ekstrakt: 13,1 wag.</p>
+                            <p>Alkohol: 5,4% obj.</p>
+                            <p>IBU: 27</p>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card">
+  
+                            <div class="img-wrapper">
+                                <img src="img/risfactor.jpg" alt="ris factor">
+                            </div>
+                            <div class="beer-name">Risfactor</div>
+                            <div class="beer-style">Russian Imperial Stout</div>   
+                        </div>
+
+                        <div class="card-overlay">
+                            <p>Nazwa: Risfactor</p>
+                            <p>Styl: Russian Imperial Stout</p>
+                            <p>Ekstrakt: 30 wag.</p>
+                            <p>Alkohol: 11,5% obj.</p>
+                            <p>IBU: 90</p>
+                        </div>  
+                    </div>
+                </div>
+
+
+         
+
                 </div>
             </div>
         </section>
@@ -93,12 +193,12 @@
     
         <!-- ABOUT US -->
     
-        <section class="about-us">
+        <section id="about-us">
             
             <div class="container">
                 <h2 class="section-title">O nas</h2>
                 <p>Jesteśmy osobami, które chciały połączyć pracę z pasją a także móc podzielić się jej efektami z innymi. Wspólne zamiłowanie do piwowarstwa, długie rozmowy o piwie i przy piwie dały początek wspaniałej przyjaźnii która zrodziła śmiały pomysł. "A gdyby tak..." I klamka zapadła. Tak o to w 2020 r. współnie zdecydowaliśmy założyć browar. Mateusz, Eryk, Oskar. Tak oto, od pierwszych liter imion  powstał Browar Meo.</p>
-    
+
                 <p>Bo przyjaźń ma wielką moc!</p>
     
     
@@ -109,7 +209,7 @@
     
         <!-- CONTACT -->
     
-        <section class="contact">
+        <section id="contact">
             <h2 class="section-title">Kontakt</h2> 
     
             <div class="container">
@@ -148,10 +248,10 @@
           <div class="col-xs-12 col-md-8">
             <ul>
                 <li><a href="#"><img src="img/hop.svg" alt="logo" class="hop-logo"></a></li>
-                <li><a href="#">Aktualności</a></li>
-                <li><a href="#">Nasze piwa</a></li>
-                <li><a href="#">O nas</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#news">Aktualności</a></li>
+                <li><a href="#our-beers">Nasze piwa</a></li>
+                <li><a href="#about-us">O nas</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
           </div>
 
@@ -183,5 +283,6 @@
     <script src="js/slider.js"></script>
     <script src="js/parentSliderHeight.js"></script>
     <script src="js/resize.js"></script>
+    <script src="js/navbarCollapse.js"></script>
 </body>
 </html>
